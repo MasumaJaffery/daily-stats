@@ -82,8 +82,8 @@ jobs:
 
       - name: Commit stats
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "MasumaJaffery"
+          git config user.email "masumajaffery1@gmail.com"
           git add github-stats.md
           git commit -m "chore: update github stats $(date -u '+%Y-%m-%d')" || echo "Nothing to commit"
           git push
