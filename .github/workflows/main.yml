@@ -86,4 +86,4 @@ jobs:
           git config user.email "masumajaffery1@gmail.com"
           git add github-stats.md
           git commit -m "chore: update github stats $(date -u '+%Y-%m-%d')" || echo "Nothing to commit"
-          git push
+          git pull --rebase origin main && git push
